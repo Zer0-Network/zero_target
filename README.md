@@ -6,4 +6,4 @@ Versión actual: **1.0.0**. Target ajustado para suplir el ox_target y qb-target
 
 Este repositorio contiene únicamente documentación pública y metadatos de versión. El recurso se distribuye mediante Cfx.re Asset Escrow.
 
-Para su compra accede a: **zeronetwork.shop**
+Para su compra: https://zeronetwork.shop/
