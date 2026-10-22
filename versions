@@ -1,14 +1,13 @@
 {
   "schema": 1,
   "resource": "zero_target",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "download": "https://portal.cfx.re/assets/granted-assets",
   "notes": [
-    "Sistema híbrido universal con soporte nativo de ox_target, qb-target y qtarget.",
-    "Interfaz moderna ZerØ Network con personalización completa in-game (/targetmenu).",
-    "Doble modo de escaneo: Pulsar (ALT) con pantalla limpia y Modo Continuo.",
-    "Faros 3D de proximidad con esfera blanca luminosa en DirectX.",
-    "Compatibilidad multi-framework (QBCore, Qbox, ESX Legacy, Standalone) y multi-inventario.",
-    "Rendimiento ultraligero calibrado a 0.00ms de resmon en reposo."
+    "Persistencia multinivel instantánea: guardado automático en tiempo real de preferencias (modo, color, fuente y forma) en NUI, KVP local y servidor.",
+    "Forma inicial configurable en shared/config.lua (Config.UI.Shape = 'diamond', 'circle', 'square') para nuevos jugadores.",
+    "Faros 3D de proximidad optimizados: filtrado selectivo de entidades evitando puntos flotantes en utilería global del mapa.",
+    "Refinamiento estético: eliminación de matices rojizos y adición de resplandor difuso dinámico según el color de acento.",
+    "Compatibilidad 100% probada y balanceada para QBCore, Qbox y ESX Legacy a 0.00ms en reposo."
   ]
 }
