@@ -1,13 +1,11 @@
 {
   "schema": 1,
   "resource": "zero_target",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "download": "https://portal.cfx.re/assets/granted-assets",
   "notes": [
-    "Persistencia multinivel instantánea: guardado automático en tiempo real de preferencias (modo, color, fuente y forma) en NUI, KVP local y servidor.",
-    "Forma inicial configurable en shared/config.lua (Config.UI.Shape = 'diamond', 'circle', 'square') para nuevos jugadores.",
-    "Faros 3D de proximidad optimizados: filtrado selectivo de entidades evitando puntos flotantes en utilería global del mapa.",
-    "Refinamiento estético: eliminación de matices rojizos y adición de resplandor difuso dinámico según el color de acento.",
-    "Compatibilidad 100% probada y balanceada para QBCore, Qbox y ESX Legacy a 0.00ms en reposo."
+    "Descubrimiento de entidades por registros específicos, distancia y lotes configurables.",
+    "Limpieza al detener recursos y respeto de disableTargeting; los registros globales de puertas no crean pines ambientales.",
+    "Revisión del dibujo 3D y anclaje al torso de NPC; comprobación visual y rendimiento nativo pendientes de prueba en FiveM."
   ]
 }
