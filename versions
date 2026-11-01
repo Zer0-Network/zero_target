@@ -1,11 +1,14 @@
 {
   "schema": 1,
   "resource": "zero_target",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "download": "https://portal.cfx.re/assets/granted-assets",
   "notes": [
-    "Descubrimiento de entidades por registros específicos, distancia y lotes configurables.",
-    "Limpieza al detener recursos y respeto de disableTargeting; los registros globales de puertas no crean pines ambientales.",
-    "Revisión del dibujo 3D y anclaje al torso de NPC; comprobación visual y rendimiento nativo pendientes de prueba en FiveM."
+    "ES: Corregido el manifiesto de las interfaces compiladas: se empaqueta el CSS real de ui/assets, eliminando el warning por ui/style.css ausente.",
+    "ES: La interacción respeta exclusivamente el modo configurado: click con ratón, press con E y hold manteniendo E; validación en Lua y NUI y protección contra confirmaciones duplicadas.",
+    "ES: Añadida compatibilidad SpawnPed, RemoveSpawnedPed, GetPeds y DeletePeds para consumidores de qb-target, incluido qb-taxijob; carga de modelos con plazo máximo y limpieza de NPC por recurso propietario, sin bucle permanente.",
+    "EN: Fixed compiled UI manifests to package the actual CSS from ui/assets, removing the missing ui/style.css warning.",
+    "EN: Interaction now exclusively follows the configured mode: click uses the mouse, press uses E, and hold requires holding E; Lua/NUI validation and duplicate-confirmation protection.",
+    "EN: Added SpawnPed, RemoveSpawnedPed, GetPeds and DeletePeds compatibility for qb-target consumers, including qb-taxijob; bounded model loading and resource-owned NPC cleanup without permanent polling."
   ]
 }
